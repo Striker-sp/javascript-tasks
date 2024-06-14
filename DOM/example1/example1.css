@@ -1,0 +1,54 @@
+h1{
+    color: blueviolet;
+    font-style: oblique;
+    text-decoration: underline;
+    /* background-color: yellow; */
+    background-image: linear-gradient(to right, red,orange, yellow,orange,red);
+    text-align: center;
+    margin: 0 250px;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    height: 100%;
+}
+
+p{
+    color: yellow;
+    align-items: center;   
+    background-image: linear-gradient(to right, red,orange, blue,orange,red);
+    text-align: center;
+    margin: 0 250px;
+}
+
+h4{
+    color: yellow;
+    background-image: linear-gradient(to right, red,orange, blue,orange,red);
+    text-align: center;
+    margin: 0 250px;
+    text-decoration: underline;
+}
+
+button{
+    color: rgb(80, 0, 155);
+    background-color: yellow;
+    font-size: large;
+    cursor: pointer;
+    align-items: center;
+    margin: 0 250px;
+    justify-content: center;
+    padding: auto;
+}
+
+button:hover{
+    color: yellow;
+    background-color: rgb(80, 0, 155);
+    font-size: large;
+    cursor: pointer;
+    align-items: center;
+    margin: 0 250px;
+    justify-content: center;
+}
